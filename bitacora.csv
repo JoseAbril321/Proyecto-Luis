@@ -29,7 +29,7 @@ Naive Bayes Vectorized,naivebayesV_laplace=7,{'laplace': 7},0.7471910112359551,0
 Naive Bayes Vectorized,naivebayesV_laplace=8,{'laplace': 8},0.7528089887640449,0.7482735532302761,0.7528089887640449,0.7489298528163881
 Naive Bayes Vectorized,naivebayesV_laplace=9,{'laplace': 9},0.7471910112359551,0.7421289108754573,0.7471910112359551,0.742630047239614
 Naive Bayes Vectorized,naivebayesV_laplace=10,{'laplace': 10},0.7471910112359551,0.7416904944088706,0.7471910112359551,0.7413734374421082
-Logistic Regression,logreg_lr=0.01_lambda=0.001_batch=32_l2Reg.npy,"{'lr': 0.01, 'lambda': 0.001, 'batch_size': 32, 'reg_type': 'l2'}",0.7584269662921348,0.7563319418579945,0.7584269662921348,0.757156097600552
+Logistic Regression,logreg_lr=0.01_lambda=0.001_batch=32_l2Reg.npy,"{'lr': 0.01, 'lambda': 0.001, 'batch_size': 32, 'reg_type': 'l2'}",0.7471910112359551,0.7437789627372564,0.7471910112359551,0.7448708594776011
 Logistic Regression,logreg_lr=0.01_lambda=0.01_batch=32_l2Reg.npy,"{'lr': 0.01, 'lambda': 0.01, 'batch_size': 32, 'reg_type': 'l2'}",0.7471910112359551,0.7437789627372564,0.7471910112359551,0.7448708594776011
 Logistic Regression,logreg_lr=0.01_lambda=0.05_batch=32_l2Reg.npy,"{'lr': 0.01, 'lambda': 0.05, 'batch_size': 32, 'reg_type': 'l2'}",0.7528089887640449,0.749035397819383,0.7528089887640449,0.7500249965629727
 Logistic Regression,logreg_lr=0.01_lambda=0.1_batch=32_l2Reg.npy,"{'lr': 0.01, 'lambda': 0.1, 'batch_size': 32, 'reg_type': 'l2'}",0.7528089887640449,0.749035397819383,0.7528089887640449,0.7500249965629727
@@ -37,45 +37,5 @@ Logistic Regression,logreg_lr=0.01_lambda=0.2_batch=32_l2Reg.npy,"{'lr': 0.01, '
 Logistic Regression,logreg_lr=0.01_lambda=0.5_batch=32_l2Reg.npy,"{'lr': 0.01, 'lambda': 0.5, 'batch_size': 32, 'reg_type': 'l2'}",0.7528089887640449,0.749035397819383,0.7528089887640449,0.7500249965629727
 Logistic Regression,logreg_lr=0.01_lambda=1_batch=32_l2Reg.npy,"{'lr': 0.01, 'lambda': 1, 'batch_size': 32, 'reg_type': 'l2'}",0.7528089887640449,0.749035397819383,0.7528089887640449,0.7500249965629727
 Logistic Regression,logreg_lr=0.01_lambda=2_batch=32_l2Reg.npy,"{'lr': 0.01, 'lambda': 2, 'batch_size': 32, 'reg_type': 'l2'}",0.7471910112359551,0.7416608146067416,0.7471910112359551,0.7385709681408072
-Logistic Regression,logreg_lr=0.01_lambda=5_batch=32_l2Reg.npy,"{'lr': 0.01, 'lambda': 5, 'batch_size': 32, 'reg_type': 'l2'}",0.7528089887640449,0.7589600118885321,0.7528089887640449,0.732505512157973
-Logistic Regression,logreg_lr=0.01_lambda=10_batch=32_l2Reg.npy,"{'lr': 0.01, 'lambda': 10, 'batch_size': 32, 'reg_type': 'l2'}",0.6797752808988764,0.7288028518568656,0.6797752808988764,0.5999836818974187
-Decision Tree,decisiontree_3.pkl,{'max_depth': 3},0.7752808988764045,0.7715795664293057,0.7752808988764045,0.771754411651262
-Decision Tree,decisiontree_4.pkl,{'max_depth': 4},0.7808988764044944,0.7773021208851932,0.7808988764044944,0.7769460409409988
-Decision Tree,decisiontree_5.pkl,{'max_depth': 5},0.7696629213483146,0.7654544722322902,0.7696629213483146,0.7643624652250317
-Decision Tree,decisiontree_6.pkl,{'max_depth': 6},0.7528089887640449,0.7487686437105477,0.7528089887640449,0.7420631265952686
-Decision Tree,decisiontree_7.pkl,{'max_depth': 7},0.7584269662921348,0.7535892634207241,0.7584269662921348,0.7515762201014422
-Decision Tree,decisiontree_8.pkl,{'max_depth': 8},0.7752808988764045,0.7715795664293057,0.7752808988764045,0.771754411651262
-Decision Tree,decisiontree_9.pkl,{'max_depth': 9},0.7808988764044944,0.7773021208851932,0.7808988764044944,0.7769460409409988
-Decision Tree,decisiontree_10.pkl,{'max_depth': 10},0.7584269662921348,0.7535724833205805,0.7584269662921348,0.75286795133357
-Decision Tree,decisiontree_11.pkl,{'max_depth': 11},0.7471910112359551,0.7416904944088706,0.7471910112359551,0.7413734374421082
-Decision Tree,decisiontree_12.pkl,{'max_depth': 12},0.7528089887640449,0.747776476743317,0.7528089887640449,0.7477464609915573
-SVM,svm_C=0.1_kernel=rbf_gamma=scale.pkl,"{'C': 0.1, 'kernel': 'rbf', 'gamma': 'scale'}",0.7752808988764045,0.771495442018232,0.7752808988764045,0.7695196913273022
-SVM,svm_C=0.5_kernel=rbf_gamma=scale.pkl,"{'C': 0.5, 'kernel': 'rbf', 'gamma': 'scale'}",0.7865168539325843,0.7834640661437354,0.7865168539325843,0.781043706760937
-SVM,svm_C=1_kernel=rbf_gamma=scale.pkl,"{'C': 1, 'kernel': 'rbf', 'gamma': 'scale'}",0.7865168539325843,0.7834640661437354,0.7865168539325843,0.781043706760937
-SVM,svm_C=2_kernel=rbf_gamma=scale.pkl,"{'C': 2, 'kernel': 'rbf', 'gamma': 'scale'}",0.7808988764044944,0.7777108970929196,0.7808988764044944,0.774685408929215
-SVM,svm_C=5_kernel=rbf_gamma=scale.pkl,"{'C': 5, 'kernel': 'rbf', 'gamma': 'scale'}",0.7640449438202247,0.7595771361186543,0.7640449438202247,0.7592125309464863
-SVM,svm_C=10_kernel=rbf_gamma=scale.pkl,"{'C': 10, 'kernel': 'rbf', 'gamma': 'scale'}",0.7584269662921348,0.7535724833205805,0.7584269662921348,0.75286795133357
-SVM,svm_C=20_kernel=rbf_gamma=scale.pkl,"{'C': 20, 'kernel': 'rbf', 'gamma': 'scale'}",0.7471910112359551,0.7428290068448922,0.7471910112359551,0.7437948194402135
-SVM,svm_C=50_kernel=rbf_gamma=scale.pkl,"{'C': 50, 'kernel': 'rbf', 'gamma': 'scale'}",0.7471910112359551,0.7428290068448922,0.7471910112359551,0.7437948194402135
-SVM,svm_C=100_kernel=rbf_gamma=scale.pkl,"{'C': 100, 'kernel': 'rbf', 'gamma': 'scale'}",0.7528089887640449,0.749035397819383,0.7528089887640449,0.7500249965629727
-SVM,svm_C=200_kernel=rbf_gamma=scale.pkl,"{'C': 200, 'kernel': 'rbf', 'gamma': 'scale'}",0.7471910112359551,0.7421289108754573,0.7471910112359551,0.742630047239614
-Naive Bayes Vectorized,naivebayesV_laplace=1,{'laplace': 1},0.7584269662921348,0.7631160454194161,0.7584269662921348,0.7601678143647741
-Naive Bayes Vectorized,naivebayesV_laplace=2,{'laplace': 2},0.7359550561797753,0.7409265204209025,0.7359550561797753,0.7378578436080089
-Naive Bayes Vectorized,naivebayesV_laplace=3,{'laplace': 3},0.7359550561797753,0.7387805684071381,0.7359550561797753,0.737156919607933
-Naive Bayes Vectorized,naivebayesV_laplace=4,{'laplace': 4},0.7415730337078652,0.7415730337078652,0.7415730337078652,0.7415730337078652
-Naive Bayes Vectorized,naivebayesV_laplace=5,{'laplace': 5},0.7415730337078652,0.7399942618310963,0.7415730337078652,0.7406875246402524
-Naive Bayes Vectorized,naivebayesV_laplace=6,{'laplace': 6},0.7528089887640449,0.7500507719700941,0.7528089887640449,0.7510348089732555
-Naive Bayes Vectorized,naivebayesV_laplace=7,{'laplace': 7},0.7471910112359551,0.7437789627372564,0.7471910112359551,0.7448708594776011
-Naive Bayes Vectorized,naivebayesV_laplace=8,{'laplace': 8},0.7528089887640449,0.7482735532302761,0.7528089887640449,0.7489298528163881
-Naive Bayes Vectorized,naivebayesV_laplace=9,{'laplace': 9},0.7471910112359551,0.7421289108754573,0.7471910112359551,0.742630047239614
-Naive Bayes Vectorized,naivebayesV_laplace=10,{'laplace': 10},0.7471910112359551,0.7416904944088706,0.7471910112359551,0.7413734374421082
-Logistic Regression,logreg_lr=0.01_lambda=0.001_batch=32_l2Reg.npy,"{'lr': 0.01, 'lambda': 0.001, 'batch_size': 32, 'reg_type': 'l2'}",0.7584269662921348,0.7563319418579945,0.7584269662921348,0.757156097600552
-Logistic Regression,logreg_lr=0.01_lambda=0.01_batch=32_l2Reg.npy,"{'lr': 0.01, 'lambda': 0.01, 'batch_size': 32, 'reg_type': 'l2'}",0.7471910112359551,0.7437789627372564,0.7471910112359551,0.7448708594776011
-Logistic Regression,logreg_lr=0.01_lambda=0.05_batch=32_l2Reg.npy,"{'lr': 0.01, 'lambda': 0.05, 'batch_size': 32, 'reg_type': 'l2'}",0.7528089887640449,0.749035397819383,0.7528089887640449,0.7500249965629727
-Logistic Regression,logreg_lr=0.01_lambda=0.1_batch=32_l2Reg.npy,"{'lr': 0.01, 'lambda': 0.1, 'batch_size': 32, 'reg_type': 'l2'}",0.7528089887640449,0.749035397819383,0.7528089887640449,0.7500249965629727
-Logistic Regression,logreg_lr=0.01_lambda=0.2_batch=32_l2Reg.npy,"{'lr': 0.01, 'lambda': 0.2, 'batch_size': 32, 'reg_type': 'l2'}",0.7528089887640449,0.749035397819383,0.7528089887640449,0.7500249965629727
-Logistic Regression,logreg_lr=0.01_lambda=0.5_batch=32_l2Reg.npy,"{'lr': 0.01, 'lambda': 0.5, 'batch_size': 32, 'reg_type': 'l2'}",0.7528089887640449,0.749035397819383,0.7528089887640449,0.7500249965629727
-Logistic Regression,logreg_lr=0.01_lambda=1_batch=32_l2Reg.npy,"{'lr': 0.01, 'lambda': 1, 'batch_size': 32, 'reg_type': 'l2'}",0.7528089887640449,0.749035397819383,0.7528089887640449,0.7500249965629727
-Logistic Regression,logreg_lr=0.01_lambda=2_batch=32_l2Reg.npy,"{'lr': 0.01, 'lambda': 2, 'batch_size': 32, 'reg_type': 'l2'}",0.7471910112359551,0.7421289108754573,0.7471910112359551,0.742630047239614
 Logistic Regression,logreg_lr=0.01_lambda=5_batch=32_l2Reg.npy,"{'lr': 0.01, 'lambda': 5, 'batch_size': 32, 'reg_type': 'l2'}",0.7584269662921348,0.7680518190290307,0.7584269662921348,0.7374821950139495
 Logistic Regression,logreg_lr=0.01_lambda=10_batch=32_l2Reg.npy,"{'lr': 0.01, 'lambda': 10, 'batch_size': 32, 'reg_type': 'l2'}",0.6797752808988764,0.7288028518568656,0.6797752808988764,0.5999836818974187
